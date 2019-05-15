@@ -23,5 +23,7 @@ ax.set_title("General map of assignment materials")
 pop.plot(ax=ax, column='pop2013', cmap='Blues', alpha=0.8, legend=True)
 # Add the roads
 rds.plot(ax=ax, linewidth=0.35, color='r')
+
+
 # Add the crashes
 crashes.plot(ax=ax, color='k', markersize=1)
